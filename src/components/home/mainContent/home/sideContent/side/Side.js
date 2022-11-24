@@ -4,8 +4,16 @@ import SocialMedia from './social/SocialMedia';
 import "./side.css"
 import Tpost from './tpost/Tpost';
 import { gallery } from '../../../../../../dummyData';
+import Slider from "react-slick";
 
 const Side = () => {
+     const settings = {
+          dots: false,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        };
      const category =["world","travel","sport","fun","health","fashion","business","technology"]
   return (
    <>
@@ -39,6 +47,7 @@ const Side = () => {
 
     <section className='gallery'>
      <Heading title='Gallery'/>
+     <Slider {...settings}>
      {gallery.map((val)=>{
           return(
                <div className='img'>
@@ -46,6 +55,7 @@ const Side = () => {
                </div>
           )
      })}
+     </Slider>
     </section>
    </>  
   )

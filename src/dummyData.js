@@ -427,32 +427,32 @@ export const hero = [
       cover: "../images/gallery/g5.jpg",
     },
   ]
-//   export const discover = [
-//     {
-//       title: "games",
-//       cover: "../images/discover/d1.jpg",
-//     },
-//     {
-//       title: "sports",
-//       cover: "../images/discover/d2.jpg",
-//     },
-//     {
-//       title: "humour",
-//       cover: "../images/discover/d3.jpg",
-//     },
-//     {
-//       title: "gadgets",
-//       cover: "../images/discover/d4.jpg",
-//     },
-//     {
-//       title: "movies",
-//       cover: "../images/discover/d5.jpg",
-//     },
-//     {
-//       title: "nitendo",
-//       cover: "../images/discover/d6.jpg",
-//     },
-//   ]
+  export const discover = [
+    {
+      title: "games",
+      cover: "../images/discover/d1.jpg",
+    },
+    {
+      title: "sports",
+      cover: "../images/discover/d2.jpg",
+    },
+    {
+      title: "humour",
+      cover: "../images/discover/d3.jpg",
+    },
+    {
+      title: "gadgets",
+      cover: "../images/discover/d4.jpg",
+    },
+    {
+      title: "movies",
+      cover: "../images/discover/d5.jpg",
+    },
+    {
+      title: "nitendo",
+      cover: "../images/discover/d6.jpg",
+    },
+  ]
 //   {
 //     /*<p>Busan is an amazing magazine Blogger theme that is easy to customize for your needs</p>
 //     <p>Google To Boost Android Security In Few Days</p>

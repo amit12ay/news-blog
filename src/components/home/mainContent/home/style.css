@@ -1,9 +1,9 @@
 main .container {
     display: flex;
     justify-content:  space-between;
-    height: 100vh;
+
 }
-.mainContent {
+.mainContent { 
     width: 75%;
 
 }

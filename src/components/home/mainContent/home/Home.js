@@ -13,12 +13,15 @@ const Home = () => {
         <div className='container'>
             <section className='mainContent'>
               <Popular/> 
+              
               <Ppost/>
               <Life/>
               <Music/>
+            
             </section>
             <section className='sideContent'>
               <Side/>
+            
             </section>
         </div>
     </main>
